@@ -14,7 +14,6 @@
     background-position:center;
     width: 1440px;
     height: 620px;
-    position:absolute;
 
 }
 /*  nav styling */
@@ -23,7 +22,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .nav-info{
@@ -39,8 +37,8 @@
 }
 .nav-description{
     margin-bottom: 32px;
-    font-size: 13px;
-    opacity: 0.7;
+    font-size: 14px;
+    opacity: 0.8;
 }
 .btn-contact{
     margin-bottom: 44px;
@@ -50,4 +48,39 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+}
+/* Main Section styling */
+main{
+    border: 2px solid black;
+    margin: 74px 152px;
+    width: 1140px;
+    height: 1393px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    justify-content: center;
+}
+.section-info{
+    border: 2px solid black;
+    margin: 80px 97px;
+    width: 946px;
+    height: 1233px;
+}
+.about{
+    border: 2px solid black;
+    margin: 0px 47px 48px 47px;
+    width: 852px;
+    height: 113px;
+    align-items: center;
+    text-align: center;
+}
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.section-title-description{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 48px;
 }
