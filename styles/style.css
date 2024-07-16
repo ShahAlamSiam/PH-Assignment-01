@@ -9,7 +9,7 @@
 }
 /* header */
 .header{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position:center;
     width: 1440px;
@@ -51,22 +51,17 @@
 }
 /* Main Section styling */
 main{
-    border: 2px solid black;
     margin: 74px 152px;
     width: 1140px;
-    /* height: 1393px; */
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     justify-content: center;
 }
 .section-info{
-    border: 2px solid black;
     margin: 80px 97px;
     width: 946px;
-    /* height: 1233px; */
 }
 .about{
-    border: 2px solid black;
     margin: 0px 47px 48px 47px;
     width: 852px;
     height: 113px;
@@ -86,8 +81,6 @@ main{
 }
 /* Section part 2 */
 .section-2{
-    /* border: rgb(13, 19, 33); */
-    border: 2px solid black;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     width: 946px;
@@ -128,8 +121,6 @@ main{
 /*Section part 3 */
 .section-3{
     margin-top: 32px;
-    /* border: rgb(13, 19, 33); */
-    border: 2px solid black;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     width: 946px;
@@ -157,9 +148,7 @@ main{
 }
 /* Section part4 */
 .section-4{
-    /* border: rgb(13, 19, 33); */
     margin-top: 32px;
-    border: 2px solid black;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     width: 946px;
@@ -193,7 +182,6 @@ main{
 }
 /* Section Inspiration */
 .section-inspiration{
-    border: 2px solid black;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     width: 1140px;
@@ -201,7 +189,6 @@ main{
     margin-top: 90px;
 }
 .section-inspiration-info{
-    border: 2px solid black;
     width: 852px;
     height: 113px;
     margin: 0px 140px 80px 140px;
@@ -225,19 +212,14 @@ main{
     text-align: center;
 }
 .section-video{
-    border: 2px solid red;
-    /* width: 1140px;
-    height: 614px; */
     width: 1050px;
     height: 550px;
     margin: 0px auto;
-    /* margin: 0px 40px 40px 40px; */
     padding: 40px;
 }
 /*SECTION TARGET*/
 
 .section-target{
-    border: 2px solid black;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     width: 1140px;
@@ -246,7 +228,6 @@ main{
     margin-left: 20px;
 }
 .section-target-info{
-    border: 2px solid black;
     width: 852px;
     height: 113px;
     margin: 0px 140px 80px 140px;
@@ -281,6 +262,18 @@ main{
     gap: 24;
     justify-content: space-evenly;
 }
+.target-items-container1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-items-container2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-items-container3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
 .items-title{
     font-size: 18px;
     margin-top: 30px;
@@ -300,15 +293,11 @@ main{
 
 /* SECTION SUPPORT */
 .support{
-    background-image: url(/assets/handshake.jpg);
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(/assets/handshake.jpg);
     background-position: center;
     width: 1140px;
     height: 313px;
-    /* margin-top: 50px;
-    margin-left: 23px; */
-    margin: 25px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 .section-support{
     width: 1044px;
@@ -318,8 +307,6 @@ main{
     flex-direction: column;
 }
 .section-info{
-    /* width: 1044px;
-    height: 185px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -352,6 +339,7 @@ main{
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: 400;
+    text-align: center;
 }
 .feedback{
     display: flex;
@@ -372,13 +360,7 @@ footer{
     display: flex;
 
 }
-/* .contact-info{
-    width: 1140px;
-    height: 36px;
-    align-items: center;
-    justify-content: center;
 
-}  */
   .contact-info{
     color: rgb(13, 19, 33);
     font-size: 18px;
